@@ -8,12 +8,20 @@
 </head>
 <body>
     <script>
-        // let x = 10;
-        // let y = ++x;
-        // console.log(y);
+        var d = new Date();
+        let t =  d.getHours(); 
 
-        console.log(15 >> 3);
+        // alert(t);
 
+        if (t<= 11){
+            alert('Buna dimineata!')
+        }
+        else if (t > 11 && t <17){
+            alert('Buna ziua!')
+        }
+        else{
+            alert('Buna seara!')
+        }
     </script>
 </body>
 </html>
