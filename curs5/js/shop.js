@@ -42,6 +42,7 @@ let products = [
          description: 'Sandvis delicios cu mozzarella si sos barbeque',
      }, 
  ]
+     
 
 
 
@@ -49,10 +50,10 @@ let products = [
 // FInal
 function showProducts()
 {
-    clearProducts()
+     clearProducts()
 
     let minPrice = document.querySelector('#min').value
-    // let minPrice = document.getElementById('min').value
+    // let minPrice = document.getElementById('min').v
     let maxPrice = document.querySelector('#max').value
 
     products
@@ -83,7 +84,7 @@ function updateMinPrice() {
 
 function updateMaxPrice() {
     let maxPrice = document.querySelector('#max').value
-    console.log(maxPrice)
+    console.log(maxPrice);
     document.querySelector('#maxValue').innerText = maxPrice
 }
 

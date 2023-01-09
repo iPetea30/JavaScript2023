@@ -43,25 +43,26 @@ let products = [
      }, 
  ]
  
-//  Initial
-//  function showProducts(){
-//      for (const product in products) {
-//          i=0;
+ // Initial
+ // function showProducts(){
+ //     for (const product in products) {
+ //         i=0;
         
-//              console.log(products[product[i]].name);
-//          i++;
-//      }
-//  }
-//  function showProducts(){
-//      products.forEach(product =>{
-//          console.log(product.name);
+ //             console.log(products[product[i]].name);
+ //         i++;
+ //     }
+ // }
+ // function showProducts(){
+ //     products.forEach(product =>{
+ //         console.log(product.name);
  
-//      })
-//  }
+ //     })
+ // }
  
  function showProducts(){
      products.forEach(product =>{
-        //  console.log(product.name);
+       
+         // console.log(product.name);
          let div = document.createElement('div')
                      div.classList.add('product')
                      div.innerHTML = `
@@ -74,3 +75,4 @@ let products = [
      })
  }
  showProducts();
+ 
